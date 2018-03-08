@@ -12,4 +12,4 @@ Wird die Applikation gestartet öffnet sich ein Startfenster, in dem man die gew
 Anschließend wird die benötigte Anzahl an Etiketten ausgewählt und zu jedem Etikett die Bogenart sowie die Anzahl der Farben angegeben. Mit Klick auf "PDF" wird ein .pdf Dokument erzeugt, das alle Etiketten auf jeweils einer Seite enthält, welche nun ausgedruckt und an den Paketen angebracht werden können.
 
 # Aufbau:
-Die Applikation ist in Python geschrieben und nutzt das Standardtool Tkinter für die Benutzeroberfläche. Teilfunktionen wurden in einzelne Klassen ausgelagert.
+Die Applikation ist in Python geschrieben und nutzt das Standardtool Tkinter für die Benutzeroberfläche. Teilfunktionen wurden in einzelne Klassen ausgelagert. Zur Generierung von PDF's wird die ReportLab PDF Library verwendet.
